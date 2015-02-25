@@ -1,0 +1,152 @@
+.products {
+  h3[id*="see-faq"], h3[id*="back-to-user-manual"] {
+    margin: 0;
+    position: relative;
+    a {
+      position: absolute;
+      top: -2.5em;
+      right: 0;
+      border: 3px solid $brand-color;
+      border-radius: 3px;
+      font-size: 1.3em;
+      background-color: $brand-color;
+      color: $background-color;
+      padding: 0.2em;
+      &:hover {
+        background-color: transparent;
+        color: $brand-color;
+      }
+    }
+  }
+  .page-content .wrapper, .site-footer .wrapper {
+    margin-left: 25%;
+  }
+  .page-content .wrapper {
+    margin-left: 25%;
+    h1 {
+      margin-top: 1em;
+      color: $brand-color;
+    }
+    h2 {
+      position: relative;
+      padding-top: 3.5em;
+      &:nth-child(3) {
+        margin-top: 0;
+        padding-top: 1.5em;
+      }
+      a {
+        display: block;
+        width: 100%;
+        font-size: 0.4em;
+        margin-top: 1em;
+      }
+    }
+    p {
+      text-align: justify;
+      display: block;
+    }
+    img {
+      width: 100%;
+      display: block;
+      margin: $spacing-unit * 1/4 auto $spacing-unit * 3/4;
+      text-align: center;
+      border: 1px solid $grey-3;
+      border-radius: 5px;
+    }
+    p a, li a {
+      border: 1px solid $brand-color;
+      border-radius: 3px;
+    }
+  }
+}
+
+// SPECIAL STRING AND ELEMENTS STYLING
+
+a[href*="/documents/"] {
+  background-color: $brand-color;
+  color: $background-color;
+  padding: 0.5em;
+  font-size: 1.2em;
+  &:hover {
+    background-color: transparent;
+    color: $brand-color;
+  }
+}
+
+// PRODUCT SIDE NAVIGATION
+
+.page-nav {
+  padding: 2.5em 2em 0;
+  position: fixed;
+  top: 0;
+  margin-top: 80px;
+  width: 20%;
+  height: 90%;
+  background-color: #f0f0f0;
+  overflow: auto;
+}
+
+#page-nav-list {
+  list-style-type: none;
+  font-size: 1em;
+  line-height: 1.5;
+  li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding: 4px 8px;
+    background: $grey-2;
+    border-left: 5px solid $grey-5;
+    width: 100%;
+    a {
+      color: $text-color;
+      padding: 0;
+      white-space: pre-line;
+      display: block;
+    }
+    &:hover, &:active, &:focus {
+      background-color: $brand-color-light;
+      border-left-color: $brand-color-dark;
+      a {
+        color: $brand-color-dark;
+      }
+    }
+  }
+}
+
+@include media-query($on-laptop) {
+  .page-nav {
+    overflow: auto !important;
+  }
+  .wrapper {
+    margin-left: inherit !important;
+  }
+  .page-nav {
+    width: 86%;
+    background-color: transparent;
+    margin: 0 auto;
+    position: relative;
+  }
+  #page-nav-list li {
+    width: auto;
+    margin-right: 1em;
+  }
+  .product {
+    margin: auto;
+    padding-top: 0;
+    h2:first-child {
+      margin-top: 0.2em;
+    }
+  }
+}
+
+
+@include media-query($on-palm) {
+  .page-nav {
+    width: 100%;
+    padding-top: 1em;
+  }
+  p {
+    text-align: left;
+  }
+}

@@ -1,0 +1,36 @@
+body {
+  position: relative;
+}
+
+.page-content {
+  padding: 5.5em 0 3em;
+  &, * {
+    box-sizing: border-box;
+  }
+}
+
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin: 0 auto;
+  padding: 0 4%;
+  position: relative;
+  h2 {
+    font-weight: 100;
+    font-size: 2em;
+    font-family: "Open Sans", sans-serif;
+  }
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+
+.page-heading {
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}

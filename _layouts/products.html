@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="products">
+        
+        {% include header.html %}
+    
+        <div class="page-content">
+          <div class="page-nav">
+              <h3>Jump to a section:</h3>
+              <ul id="page-nav-list">
+              </ul>
+          </div>
+          <div class="wrapper">
+              
+            {{ content }}
+              
+          </div>
+        </div>
+    
+        {% include footer.html %}
+        
+      </div>
+  </body>
+
+</html>

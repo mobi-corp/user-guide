@@ -1,0 +1,102 @@
+/**
+ * Site header
+ */
+.site-header {
+  background: #414042 url('../images/dark-gray-bg.png') no-repeat;
+  border-bottom: 0.5em solid $brand-color;
+  height: 5em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  h1 {
+    color: #f7f7f7;
+    position: relative;
+    left: 2.7em;
+    top: 0.3em;
+    font-size: 3em;
+  }
+}
+
+.site-title {
+  font-family: $header-font-family;
+  background: url('../images/mobi-logo-white.png') no-repeat 0.5em 0.5em;
+  background-size: 8.5em 4em;
+  display: inline-block;
+  position: absolute;
+  height: 4.5em;
+  width: 8.5em;
+  color: #fff;
+}
+
+.site-nav {
+  float: right;
+  position: absolute;
+  top: $spacing-unit * 3/4;
+  right: 30px;
+  background-color: $background-color;
+  border: 1px solid $grey-2;
+  border-radius: 5px;
+  text-align: right;
+  z-index: 10;
+
+  .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg {
+      width: 18px;
+      height: 15px;
+
+      path {
+        fill: $brand-color;
+      }
+    }
+  }
+
+  .trigger {
+    clear: both;
+    display: none;
+  }
+
+  &:hover .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+  }
+}
+
+@include media-query($on-palm) {
+  .site-title {
+    background-position: 0.5em 1em;
+    background-size: 6.5em 3em;
+    height: 4.5em;
+    width: 8.5em;
+  }
+  
+  .site-header h1 {
+    left: 3.1em;
+    top: 0.7em;
+    font-size: 2em;
+  }
+  
+  .site-nav {
+    right: 1em;
+    top: 1.2em;
+  }
+  
+  .page-link {
+    font-size: 1em;
+  }
+}

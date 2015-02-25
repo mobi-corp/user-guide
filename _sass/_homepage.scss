@@ -1,0 +1,159 @@
+.homepage {
+  .site-header {
+    border-bottom: none;
+  }
+  .page-content {
+    text-align: center;
+    min-height: 30em;
+    .wrapper {
+      max-width: -webkit-calc(#{$content-width} * 2.5 - (#{$spacing-unit} * 2));
+      max-width:         calc(#{$content-width} * 2.5 - (#{$spacing-unit} * 2));
+      padding-top: 3.5em;
+    }
+  }
+  
+  .product-grouping a {
+    display: inline-block;
+    position: relative;
+    margin: 0.2em;
+    &:hover {
+      [class^="icon-"] {
+        background-color: $brand-color-light;
+      }
+      .product-label {
+      }
+    }
+  }
+  [class^="icon-"] {
+    font-size: 4em;
+    padding: 0.2em;
+    border-radius: 20em;
+  }
+  .product-label {
+    display: block;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    font-family: 'Proxima Nova Soft', 'Helvetica', sans-serif;
+  }
+
+  .row {
+    display: inline-block;
+    margin-bottom: 2.5em;
+  }
+}
+
+
+.product-grouping {
+  display: inline-block;
+  width: 18em;
+  height: 18em;
+  margin: 1em 0.5em;
+  padding-top: 2.15em;
+  vertical-align: middle;
+  border-radius: 30em;
+  &:after {
+    display: block;
+    margin-top: 1.2em;
+    font-size: 1.5em;
+  }
+}
+
+.location-intel, .analytics {
+  padding-top: 5.5em;
+  &:after {
+    margin-top: 3.8em;
+  }
+}
+
+.long-range-planning {
+  color: $blue-brand-color;
+  border: 0.5em solid $blue-brand-color;
+  &:hover {
+    background-color: rgba($blue-brand-color-light, 0.8);
+  }
+  a {
+    color: $blue-brand-color;
+    &:hover {
+      color: $blue-brand-color-dark;
+      span:first-child {
+        color: #f7f7f7;
+        background-color: $blue-brand-color !important;
+      }
+    }
+  }
+  &:after {
+    content: 'Long Range Planning';
+  }
+}
+
+.daily-ops {
+  border: 0.5em solid $red-brand-color;
+  color: $red-brand-color;
+  &:hover {
+    background-color: rgba($red-brand-color-light, 0.8);
+  }
+  a {
+    color: $red-brand-color;
+    &:hover {
+      color: $red-brand-color-dark;
+      span:first-child {
+        color: #f7f7f7;
+        background-color: $red-brand-color !important;
+      }
+    }
+  }
+  &:after {
+    content: 'Daily Operations';
+  }
+}
+
+.location-intel {
+  color: $brand-color;
+  border: 0.5em solid $brand-color;
+  &:hover {
+    background-color: rgba($brand-color-light, 0.8);
+  }
+  a:hover {
+    span:first-child {
+      color: #f7f7f7;
+      background-color: $brand-color !important;
+    }
+  }
+  &:after {
+    content: 'Location Intelligence';
+  }
+}
+
+.analytics {
+  border: 0.5em solid $yellow-brand-color;
+  color: $yellow-brand-color;
+  &:hover {
+    background-color: rgba($yellow-brand-color-light, 0.5);
+  }
+  a {
+    color: $yellow-brand-color;
+    &:hover {
+      color: $yellow-brand-color-dark;
+      span:first-child {
+        color: #f7f7f7;
+        background-color: $yellow-brand-color !important;
+      }
+    }
+  }
+  &:after {
+    content: 'Analytics';
+  }
+}
+
+@include media-query($on-laptop) {
+  .product-grouping {
+    margin-top: 3.8em;
+  }
+  .row {
+    margin: 0 !important;
+  }
+}
+
+@include media-query($on-palm) {
+}

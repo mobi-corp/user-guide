@@ -1,0 +1,24 @@
+.site-header .wrapper {
+}
+
+.site-nav {
+  .trigger {
+    min-height: 80px;
+    border: 1px solid $grey-2;
+    border-width: 1px 0 0;
+    [class*="icon-"] {
+      float: left;
+      margin-right: 2em;
+      font-size: 1.5em;
+      color: $grey-3;
+    }
+  }
+  .page-link:hover {
+    background: $brand-color;
+    color: #fff !important;
+    text-decoration: none;
+    span {
+      color: $brand-color-light;
+    }
+  }
+}

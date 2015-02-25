@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.8;
+
+$spacing-unit:     30px;
+
+$text-color:       #808284;
+$background-color: #f7f7f7;
+
+$brand-color:      #77943c;
+$brand-color-light:#b2c043;
+$brand-color-dark: #41591d;
+
+$blue-brand-color:        #4284af;
+$blue-brand-color-light:  #a0bdd7;
+$blue-brand-color-dark:  #214e69;
+
+$red-brand-color:         #de7227;
+$red-brand-color-light:   #fbb55e;
+$red-brand-color-dark:    #a04923;
+
+$yellow-brand-color:      #f5b818;
+$yellow-brand-color-light:#fedd7f;
+$yellow-brand-color-dark: #ba8224;
+
+$black-color:      #414042;
+$black-color-light:lighten($black-color, 40%);
+$black-color-dark: darken($black-color, 25%);
+
+$grey-1:           #f7f7f7;
+$grey-2:           #ddd;
+$grey-3:           #c3c3c3;
+$grey-4:           #aaa;
+$grey-5:           #909090;
+$grey-6:           #767676;
+$grey-7:           #5c5c5c;
+
+
+// Width of the content area
+$content-width:    960px;
+
+$on-palm:          600px;
+$on-laptop:        960px;
+$on-desktop:       1200px;
+
+$header-font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "header",
+        "navigation",
+        "layout",
+        "homepage",
+        "products",
+        "footer",
+        "syntax-highlighting",
+        "mobi-icons"
+;
