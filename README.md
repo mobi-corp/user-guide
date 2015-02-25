@@ -6,7 +6,7 @@ You will need Ruby **v 1.9.3 or v 2.x** or later.
 Install the [Jekyll](http://jekyllrb.com/docs/quickstart/) gem by navigating 
 to the **mobi-support-guide** root directory in your terminal and running the install command:
 
-> **$ cd /your-parent-directory/mobi-support-guide**  
+> **$ cd your-parent-directory/mobi-support-guide**  
 > **$ gem install jekyll**
 
 Now to run the server locally from your terminal, run: 
@@ -24,7 +24,7 @@ the latest changes, and then **push** the changes to Stash.
 You can download the GitHub app for [Windows](https://windows.github.com) or [Mac](https://mac.github.com) or the 
 Atlassian app [SourceTree](http://www.sourcetreeapp.com) to manage the project, or you can use the terminal.
 
-If you're using the terminal, run from the root directory:
+If you're using the terminal, run from the project's root directory:
 
 > **$ git add --all**
 
