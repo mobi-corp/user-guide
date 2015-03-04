@@ -8,7 +8,6 @@ permalink: /contact/
     <h1>Contact Form</h1>
     <h3>Fill out the form below and a support ticket will be created for you.</h3>
     <form id="mobiContactForm" name="mobiContactForm" ng-submit="contactForm.submitForm(mobiContactForm.$valid)" novalidate>
-        <p>Hi: <span ng-bind="contactForm.isCaptchaSelected()"></span></p>
         <div class="row">
             <div class="two column" ng-class="{ 'has-error' : mobiContactForm.firstName.$invalid && mobiContactForm.firstName.$touched }">
                 <label>First Name</label>
