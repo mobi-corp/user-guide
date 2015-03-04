@@ -1,0 +1,33 @@
+{
+  "name": "visualcaptcha.vanilla",
+  "version": "0.0.5",
+  "homepage": "http://visualcaptcha.net",
+  "authors": [
+    "emotionLoop <hello@emotionloop.com>"
+  ],
+  "main": "visualcaptcha.vanilla.js",
+  "keywords": [
+    "captcha",
+    "visualcaptcha",
+    "security",
+    "javascript",
+    "library"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.5",
+    "commit": "80b85c55522e842a099e14e5c63052b2c771efad"
+  },
+  "_source": "git://github.com/emotionLoop/visualCaptcha-frontend-vanilla.git",
+  "_target": "~0.0.5",
+  "_originalSource": "visualcaptcha.vanilla"
+}

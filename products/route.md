@@ -4,8 +4,6 @@ title: Route
 permalink: /route/
 ---
 
-# This is the user support manual for all mobi products and associated guidelines.
-
 #Route Planning Software
 
 ### [See FAQ](/route/faq)
@@ -49,7 +47,7 @@ mobi.Route
 
 ## Adding planned visits from a spreadsheet
 
-[Download mobi's template Excel spreadsheet](/documents/route_template.xlsx)
+[Download template spreadsheet](/documents/route_template.xlsx)
 
 Adding visits from spreadsheet: 
  

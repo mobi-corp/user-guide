@@ -6,11 +6,27 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <!-- Tipue Search Content-->
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/vendor/angular.min.js"></script>
+    
+    <script src="/tipuesearch_content.js"></script>
+    <link href="/vendor/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <script src="/vendor/tipuesearch/tipuesearch.min.js"></script>
+    <script src="/vendor/tipuesearch/tipuesearch_set.js"></script>
+    <!-- End Tipue Search Content-->
+
+    <!-- Visual Captcha Content-->
+    <link href="/vendor/visualcaptcha.vanilla/visualcaptcha.css" rel="stylesheet">
+    <!-- End Visual Captcha Content-->
+
+    <!-- Bootstrap Select Content-->
+    <!-- End Bootstrap Select Content-->
+
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//use.typekit.net/hsv6otz.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 </head>

@@ -44,6 +44,7 @@ $grey-5:           #909090;
 $grey-6:           #767676;
 $grey-7:           #5c5c5c;
 
+$error-color:      #F45D5D;
 
 // Width of the content area
 $content-width:    960px;
@@ -70,14 +71,18 @@ $header-font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+
 @import
+        "vendor/visualcaptcha-overrides",
+        "utilities/mixins",
+        "utilities/mobi-icons",
         "base",
+        "tipue-search-custom",
         "header",
-        "navigation",
         "layout",
         "homepage",
         "products",
         "footer",
-        "syntax-highlighting",
-        "mobi-icons"
+        "forms",
+        "syntax-highlighting"
 ;

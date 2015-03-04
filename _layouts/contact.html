@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body ng-app="contactFormValidation">
+<div class="contact">
+
+    {% include header.html %}
+
+    <div class="page-content">
+        <div class="wrapper">
+
+            {{ content }}
+
+        </div>
+    </div>
+
+    {% include footer.html %}
+    
+    <!-- Bootstrap Fake Select Content-->
+    <script src="/vendor/fakeselect-master/js/fake-select.js"></script>
+    <script src="/vendor/bootstrap.min.js"></script>
+    <script>jQuery(document).ready(function($) {$('.fake-select').fakeSelect();});</script>
+    <!-- End Bootstrap Fake Select Content-->
+
+
+    <script src="/vendor/visualCaptcha-angular/visualcaptcha.angular.js"></script>
+
+    <script src="/js/contact-form.module.js"></script>
+
+    <!--<script src="/js/visual-captcha.directive.js"></script>-->
+    <script src="/js/contact-form.service.js"></script>
+    <script src="/js/contact-form.controller.js"></script>
+
+</div>
+</body>
+
+</html>

@@ -17,6 +17,13 @@
         color: $brand-color;
       }
     }
+    @include media-query($on-palm) {
+      a {
+        position: relative;
+        top: 0;
+      }
+      text-align: right;
+    }
   }
   .page-content .wrapper, .site-footer .wrapper {
     margin-left: 25%;
@@ -67,11 +74,18 @@ a[href*="/documents/"] {
   color: $background-color;
   padding: 0.5em;
   font-size: 1.2em;
+  text-align: center;
   &:hover {
     background-color: transparent;
     color: $brand-color;
   }
+  @include media-query($on-palm) {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
+
 
 // PRODUCT SIDE NAVIGATION
 
@@ -117,13 +131,14 @@ a[href*="/documents/"] {
 @include media-query($on-laptop) {
   .page-nav {
     overflow: auto !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   .wrapper {
     margin-left: inherit !important;
   }
   .page-nav {
     width: 86%;
-    background-color: transparent;
     margin: 0 auto;
     position: relative;
   }

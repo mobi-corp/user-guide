@@ -15,6 +15,7 @@
     left: 2.7em;
     top: 0.3em;
     font-size: 3em;
+    display: inline-block;
   }
 }
 
@@ -29,39 +30,41 @@
   color: #fff;
 }
 
-.site-nav {
+.site-nav, .search-icon {
   float: right;
   position: absolute;
-  top: $spacing-unit * 3/4;
-  right: 30px;
-  background-color: $background-color;
-  border: 1px solid $grey-2;
-  border-radius: 5px;
+  top: 1.2em;
   text-align: right;
+  a[class*="icon-"] {
+    font-size: 2em;
+    cursor: pointer;
+    width: 0.9em;
+    height: 0.8em;
+    color: $background-color;
+    &:hover {
+      color: darken($background-color, 20%);
+    }
+  }
+}
+
+.site-nav {
+  right: 1em;
   z-index: 10;
 
   .menu-icon {
     display: block;
     float: right;
-    width: 36px;
-    height: 26px;
     line-height: 0;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
-
-    > svg {
-      width: 18px;
-      height: 15px;
-
-      path {
-        fill: $brand-color;
-      }
-    }
   }
 
   .trigger {
     clear: both;
     display: none;
+    background-color: $background-color;
+    border-width: 1px;
+    border-radius: 3px;
   }
 
   &:hover .trigger {
@@ -74,6 +77,35 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
+  }
+}
+
+.search-icon {
+  display: none;
+  top: 1.4em;
+  right: 3.5em;
+}
+
+@include media-query($on-laptop) {
+  .search-icon {
+    display: inline-block;
+  }
+  .tipue-search-form {
+    display: none;
+    width: 100%;
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 5em;
+    text-align: center;
+    background: rgba(65, 64, 66, 0.85);
+    padding: 2em 0;
+    input#tipue_search_input {
+      margin: 0 auto;
+      width: 80%;
+      padding: 1em 3em;
+      background-position: 15px 15px;
+    }
   }
 }
 
@@ -98,5 +130,33 @@
   
   .page-link {
     font-size: 1em;
+  }
+}
+
+
+// From nav file
+
+
+.site-nav {
+  .trigger {
+    min-height: 80px;
+    border: 1px solid $grey-2;
+    [class*="icon-"] {
+      float: left;
+      margin-right: 2em;
+      font-size: 1.5em;
+      color: $grey-3;
+    }
+  }
+  .page-link:hover {
+    background: $brand-color;
+    color: #fff !important;
+    text-decoration: none;
+    span {
+      color: $brand-color-light;
+    }
+  }
+  .page-link:nth-child(2){
+    border-bottom: 1px solid $grey-2;
   }
 }

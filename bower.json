@@ -1,0 +1,23 @@
+{
+  "name": "mobi-support-guide",
+  "version": "1.0.0",
+  "authors": [
+    "Bizaca",
+    "Tina <tbizaca@mobicorp.com>"
+  ],
+  "description": "User support guide",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "visualcaptcha.vanilla": "~0.0.5",
+    "jquery": "~2.1.3"
+  }
+}
