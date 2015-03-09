@@ -76,6 +76,8 @@ for visits (all but preferred driver, service type, and time window) are filled.
 
 ## Releasing a plan to Dispatch
 
+Not seeing what you're looking for?  Visit the [FAQ](/route/faq) for mobi.Route
+
 Check back for an updated FAQ section for [mobi.Route](https://www.mobicorp.com/products/route-planning-software-mobiroute/).  
 
 If you have any further support questions, email support at [{{ site.email }}](mailto:{{ site.email }}) 

@@ -11,7 +11,7 @@
       var service = {
         postForm: postForm
       };
-      
+      console.log('something');
       return service;
       
       function postForm(formData) {

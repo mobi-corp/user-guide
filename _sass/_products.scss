@@ -25,46 +25,6 @@
       text-align: right;
     }
   }
-  .page-content .wrapper, .site-footer .wrapper {
-    margin-left: 25%;
-  }
-  .page-content .wrapper {
-    margin-left: 25%;
-    h1 {
-      margin-top: 1em;
-      color: $brand-color;
-    }
-    h2 {
-      position: relative;
-      padding-top: 3.5em;
-      &:nth-child(3) {
-        margin-top: 0;
-        padding-top: 1.5em;
-      }
-      a {
-        display: block;
-        width: 100%;
-        font-size: 0.4em;
-        margin-top: 1em;
-      }
-    }
-    p {
-      text-align: justify;
-      display: block;
-    }
-    img {
-      width: 100%;
-      display: block;
-      margin: $spacing-unit * 1/4 auto $spacing-unit * 3/4;
-      text-align: center;
-      border: 1px solid $grey-3;
-      border-radius: 5px;
-    }
-    p a, li a {
-      border: 1px solid $brand-color;
-      border-radius: 3px;
-    }
-  }
 }
 
 // SPECIAL STRING AND ELEMENTS STYLING

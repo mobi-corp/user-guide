@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  background: #414042 url('../images/dark-gray-bg.png') no-repeat;
+  background: #414042 url('../vendor/visualcaptcha.vanilla/images/dark-gray-bg.png') no-repeat;
   border-bottom: 0.5em solid $brand-color;
   height: 5em;
   width: 100%;
@@ -21,7 +21,7 @@
 
 .site-title {
   font-family: $header-font-family;
-  background: url('../images/mobi-logo-white.png') no-repeat 0.5em 0.5em;
+  background: url('../vendor/visualcaptcha.vanilla/images/mobi-logo-white.png') no-repeat 0.5em 0.5em;
   background-size: 8.5em 4em;
   display: inline-block;
   position: absolute;

@@ -1,4 +1,6 @@
-#visual-captcha {
+@import "../utilities/mobi-icons";
+
+#visual-captcha, .visualCaptcha {
   position: relative;
 }
 
@@ -38,8 +40,19 @@
   position: absolute;
   top: 0;
   right: 0.5em;
+  font-family: 'mobi-icons';
   & > * {
     border: none;
     background: transparent;
   }
+  img {
+    display: none;
+  }
+}
+
+.visualCaptcha-refresh-button {
+  @extend .icon-refresh;
+}
+.visualCaptcha-accessibility-button {
+  @extend .icon-industry-telecom;
 }

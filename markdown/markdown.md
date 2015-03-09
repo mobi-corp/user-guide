@@ -1,5 +1,5 @@
 ---
-layout: products
+layout: sidebar-default
 title: Markdown Guide
 permalink: /markdown/
 ---

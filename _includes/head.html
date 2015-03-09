@@ -6,9 +6,9 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Tipue Search Content-->
     <script src="/vendor/jquery/dist/jquery.min.js"></script>
 
+    <!-- Tipue Search Content-->
     <script src="/tipuesearch_content.js"></script>
     <link href="/vendor/tipuesearch/tipuesearch.css" rel="stylesheet">
     <script src="/vendor/tipuesearch/tipuesearch.min.js"></script>
@@ -18,9 +18,6 @@
     <!-- Visual Captcha Content-->
     <link href="/vendor/visualcaptcha.vanilla/visualcaptcha.css" rel="stylesheet">
     <!-- End Visual Captcha Content-->
-
-    <!-- Bootstrap Select Content-->
-    <!-- End Bootstrap Select Content-->
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

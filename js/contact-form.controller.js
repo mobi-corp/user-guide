@@ -37,9 +37,11 @@
 
       function submitForm (isValid) {
         console.log($scope.captcha.getCaptchaData());
+        console.log($scope.formInputs);
         // check to make sure the form is completely valid
         if (isValid) {
           contactFormService.postForm($scope.formInputs);
+          console.log($scope.formInputs);
         }
       }
       
