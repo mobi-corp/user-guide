@@ -6,7 +6,7 @@ permalink: /insight/faq/
 
 # mobi.Insight FAQ
 
-### [Back to User Manual](/insight/)
+### Field service insight
 
 ## ???
 

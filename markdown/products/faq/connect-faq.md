@@ -6,7 +6,7 @@ permalink: /connect/faq/
 
 # mobi.Connect FAQ
 
-### [Back to User Manual](/connect/)
+### Mobile service application
 
 ## ???
 

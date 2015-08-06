@@ -3,18 +3,20 @@
 
   {% include head.html %}
 
-  <body>
+  <body id={{page.title}}>
     <div class="products sidebar">
         
         {% include header.html %}
 
         <div class="page-content">
           <div class="page-nav">
-              <h3>Jump to a section:</h3>
-              <ul id="page-nav-list">
-              </ul>
+              <div class="nav-wrapper">
+                <h3>Jump to a section:</h3>
+                  <ul id="page-nav-list">
+                  </ul>
+              </div>
           </div>
-          <div class="wrapper">
+          <div class="content-wrapper">
               
             {{ content }}
               

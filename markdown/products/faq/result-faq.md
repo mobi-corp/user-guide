@@ -6,7 +6,7 @@ permalink: /result/faq/
 
 # mobi.Result FAQ
 
-### [Back to User Manual](/result/)
+### GPS analytics
 
 ## ???
 

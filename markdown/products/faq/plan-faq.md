@@ -6,7 +6,7 @@ permalink: /plan/faq/
 
 # mobi.Plan FAQ
 
-### [Back to User Manual](/plan/)
+### Simplify long-range planning
 
 ## ???
 

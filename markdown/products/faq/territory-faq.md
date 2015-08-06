@@ -6,7 +6,7 @@ permalink: /territory/faq/
 
 # mobi.Territory FAQ
 
-### [Back to User Manual](/territory/)
+### Visual territory planning
 
 ## ???
 

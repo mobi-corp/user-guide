@@ -4,9 +4,9 @@ title: Insight
 permalink: /insight/
 ---
 
-#Field Service Insight
+# mobi.Insight User Manual
 
-### [See FAQ](/insight/faq)
+### Field service insight
 
 ## Getting started
 

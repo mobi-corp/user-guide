@@ -4,9 +4,9 @@ title: Route
 permalink: /route/
 ---
 
-#Route Planning Software
+# mobi.Route User Manual
 
-### [See FAQ](/route/faq)
+### Route planning software
 
 ## Getting started
 ![](/images/route-ss-1.jpg)

@@ -1,6 +1,14 @@
 /**
  * Site footer
  */
+
+footer {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+}
+
 .site-footer {
   padding: 2em;
   background-color: $black-color;

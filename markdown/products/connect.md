@@ -4,9 +4,9 @@ title: Connect
 permalink: /connect/
 ---
 
-#Mobile Service Application
+# mobi.Connect User Manual
 
-### [See FAQ](/connect/faq)
+### Mobile service application
 
 ## Getting started
 

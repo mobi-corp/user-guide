@@ -1,12 +1,12 @@
 ---
 layout: products
-title: Plan
-permalink: /plan/
+title: General
+permalink: /general/
 ---
 
-# mobi.Plan User Manual
+# mobi General Help
 
-### Simplify long-range planning
+### For all of your non-product related support
 
 ## Getting started
 

@@ -25,7 +25,13 @@ navMenuToggleIcon.click(function(){
 
 // Vendor
 
-
+//Tipuesearch, Sticky JS
 $(document).ready(function() {
   $('#tipue_search_input').tipuesearch();
+  $('.site-header').sticky({});
+  $('.site-header').on("sticky-start", function() {
+    $('.tabs').append('<a href="#" class="top" style="display: inline-block;">Back to top</a>');
+  }).on("sticky-end", function() {
+    $('.tabs .top').remove();
+  });
 });

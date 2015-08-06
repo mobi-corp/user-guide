@@ -4,9 +4,9 @@ title: Result
 permalink: /result/
 ---
 
-#GPS Analytics
+# mobi.Result User Manual
 
-### [See FAQ](/result/faq)
+### GPS analytics
 
 ## Getting started
 

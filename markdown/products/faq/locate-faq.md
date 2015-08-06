@@ -6,7 +6,7 @@ permalink: /locate/faq/
 
 # mobi.Locate FAQ
 
-### [Back to User Manual](/locate/)
+### Real-time GPS tracking software
 
 ## ???
 

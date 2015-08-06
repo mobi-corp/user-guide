@@ -3,7 +3,9 @@
 ---
 @charset "utf-8";
 
-
+* {
+  box-sizing: border-box;
+}
 
 // Our variables
 $base-font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
@@ -79,6 +81,7 @@ $on-desktop:       1200px;
         "base",
         "tipue-search-custom",
         "header",
+        "site-nav",
         "layout",
         "homepage",
         "products",

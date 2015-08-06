@@ -1,33 +1,38 @@
 <header class="site-header">
-  <a class="site-title" href="{{ site.baseurl }}/"></a>
-  <h1>.{{ page.title }}</h1>
-    <div class="search-icon">
+  <div class="top-header">
+    <a class="site-title" href="{{ site.baseurl }}/"></a>
+    <h1>.{{ page.title }}</h1>
+    <div class="top-nav-icon search-icon">
         <a class="icon-magnifying-glass"></a>
     </div>
     <form class="tipue-search-form" action="/search-results/">
-        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+        <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Keyword" required>
     </form>
 
     <!--<div class="wrapper">-->
+    <a href="#" class="top-nav-icon menu-icon icon-list-plain">
+    </a>
     <nav class="site-nav">
-      <a href="#" class="menu-icon icon-list-plain">
-      </a>
-      <div class="trigger">
-          <a class="page-link" href="/"><span class="icon-home"></span> Home</a>
-          <a class="page-link" href="/general/"><span class="icon-support"></span> General</a>
-          <a class="page-link" href="/territory/"><span class="icon-app-territory"></span> Territory</a>
-          <a class="page-link" href="/plan/"><span class="icon-app-plan"></span> Plan</a>
-          <a class="page-link" href="/resource/"><span class="icon-app-resource"></span> Resource</a>
-          <a class="page-link" href="/appointment/"><span class="icon-app-appointment"></span> Appointment</a>
-          <a class="page-link" href="/route/"><span class="icon-app-route"></span> Route</a>
-          <a class="page-link" href="/dispatch/"><span class="icon-app-dispatch"></span> Dispatch</a>
-          <a class="page-link" href="/connect/"><span class="icon-app-connect"></span> Connect</a>
-          <a class="page-link" href="/locate/"><span class="icon-app-locate"></span> Locate</a>
-          <a class="page-link" href="/insight/"><span class="icon-app-insight"></span> Insight</a>
-          <a class="page-link" href="/result/"><span class="icon-app-result"></span> Result</a>
-      </div>
+        <div class="main menu">
+            <a class="menu-item" href="/"><span class="icon-home"></span> Home</a>
+            <a class="menu-item" href="/general/"><span class="icon-support"></span> General</a>
+        </div>
+        <div class="product menu">
+            <a class="menu-item" href="/territory/"><span class="icon-app-territory"></span>Territory</a>
+            <a class="menu-item" href="/plan/"><span class="icon-app-plan"></span>Plan</a>
+            <a class="menu-item" href="/resource/"><span class="icon-app-resource"></span>Resource</a>
+            <a class="menu-item" href="/appointment/"><span class="icon-app-appointment"></span>Appointment</a>
+            <a class="menu-item" href="/route/"><span class="icon-app-route"></span>Route</a>
+            <a class="menu-item" href="/dispatch/"><span class="icon-app-dispatch"></span>Dispatch</a>
+            <a class="menu-item" href="/connect/"><span class="icon-app-connect"></span>Connect</a>
+            <a class="menu-item" href="/locate/"><span class="icon-app-locate"></span>Locate</a>
+            <a class="menu-item" href="/insight/"><span class="icon-app-insight"></span>Insight</a>
+            <a class="menu-item" href="/result/"><span class="icon-app-result"></span>Result</a>
+        </div>
     </nav>
-
-  <!--</div>-->
-
+  </div>
+  <div class="tabs">
+    <a class="main">User Manual</a>
+    <a class="faq">FAQ</a>
+  </div>
 </header>

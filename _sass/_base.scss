@@ -21,7 +21,8 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+//    background-color: $background-color;
+    background-color: transparent;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -145,6 +146,12 @@ blockquote {
     > :last-child {
         margin-bottom: 0;
     }
+}
+
+@include media-query($on-palm) {
+  blockquote {
+    margin-left: 0;
+  }
 }
 
 /**

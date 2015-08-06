@@ -4,9 +4,9 @@ title: Territory
 permalink: /territory/
 ---
 
-#Visual Territory Planning
+# mobi.Territory User Manual
 
-### [See FAQ](/territory/faq)
+### Visual territory planning
 
 ## Getting started
 

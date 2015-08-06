@@ -4,9 +4,9 @@ title: Dispatch
 permalink: /dispatch/
 ---
 
-#Dispatch Software
+# mobi.Dispatch User Manual
 
-### [See FAQ](/dispatch/faq)
+### Dispatch software
 
 ## Getting started
 

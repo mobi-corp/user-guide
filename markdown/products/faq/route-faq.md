@@ -6,7 +6,7 @@ permalink: /route/faq/
 
 # mobi.Route FAQ
 
-### [Back to User Manual](/route/)
+### Route planning software
 
 ## ???
 

@@ -1,5 +1,5 @@
 ---
-layout: sidebar-default
+layout: homepage
 title: Markdown Guide
 permalink: /markdown/
 ---

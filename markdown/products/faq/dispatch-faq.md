@@ -6,7 +6,7 @@ permalink: /dispatch/faq/
 
 # mobi.Dispatch FAQ
 
-### [Back to User Manual](/dispatch/)
+### Dispatch software
 
 ## ???
 

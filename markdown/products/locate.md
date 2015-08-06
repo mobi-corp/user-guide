@@ -4,9 +4,9 @@ title: Locate
 permalink: /locate/
 ---
 
-#Real-time GPS Tracking Software
+# mobi.Locate User Manual
 
-### [See FAQ](/locate/faq)
+### Real-time GPS tracking software
 
 ## Getting started
 

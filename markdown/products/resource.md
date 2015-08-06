@@ -4,9 +4,9 @@ title: Resource
 permalink: /resource/
 ---
 
-#Rostering Software
+# mobi.Resource User Manual
 
-### [See FAQ](/resource/faq)
+### Rostering software
 
 ## Using Resource
 ![](/images/resource-ss-1.png)
