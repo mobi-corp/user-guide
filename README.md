@@ -50,20 +50,29 @@ to the **mobi-support-guide** root directory in your terminal:
 	- **img** - for all screenshots and other images you want on the site
 	- **documents** - for any material you intend on hosting on the site for downloads (such as template excel files and formatted documents)
 	- **markdown** - this is where all of the md files live.  When working in these, make sure they are saved or exported as **.md** since some editors will save them as another file type by default
+3. Markdown is a simple way of formatting your writing without any HTML knowledge, but creating a file in an easy-to-convert format for your website. 
 
+	For this document, I used [MWeb Lite](http://www.mweb.im) on a mac since it has a live preview while I type and because it was free, though I probably wouldn't use it as my default editor since it doesn't manage folders and files well. It's all personal taste, however.
+
+	Documentation on using markdown can be found in detail at [Daring Fireball](http://daringfireball.net/projects/markdown/syntax) and many markdown editors have actions to include formatting without having to write it in yourself or at least have extensive documentation to help teach you. 
+	
+	For more markdown examples, just open up this or any existing file in your markdown editor to better understand how it's written.
+	
 ### Committing, pushing, and pulling
 
-1. When you've made changes, you need to **add** the files you've changed and want to ultimately commit and then push to the master branch.
+1. When you've made changes, you need to **add** the files you've changed and want to ultimately commit and then push to the master branch.  Changes pushed to the master branch are then able to be pulled by anyone else working on the project from this prod-stash repository.
 
 	In **SourceTree**, you will see your changes, additions, and removals in the **Files in the working tree** window. If you click on any one of them, it will show you the original vs the changes you've made (green for additions, red for deletions) in the window on the right.
 
-2. Select all of the files you wish to commit and drag them to the window immediately above them titled **Files staged in the index**.  From here you
- or **checkout** the ones you don't want to 
-commit the changes for, **commit** the changes with your update message, **pull** from Stash to make sure you have 
-the latest changes, and then **push** the changes to Stash.
+2. Select all of the files you wish to commit and drag them to the window immediately above them titled **Files staged in the index**.  If there are any changes you want to back out on and not commit, select those and click *checkout*.  Once you've done all of that, you are now ready to commit.
 
-You can download the GitHub app for [Windows](https://windows.github.com) or [Mac](https://mac.github.com) or the 
-Atlassian app [SourceTree](http://www.sourcetreeapp.com) to manage the project, or you can use the terminal.
+3. The **commit** button is located near the top of the SourceTree application.  Click this when you are ready to continue and then enter a commit message summarizing the changes you've made for future reference and documentation and then click commit.
+
+4. The next step is to **pull** any other potential changes made by anyone else who has been working on this project so that you don't unintentionally create merge conflicts or override another person's work.  The icon is on the same navigation bar as the commit button.
+
+5. The last step is to **push** your changes, which is next to the pull icon.  Just click ok as the settings should be fine as they are.
+
+Check here for [support](https://answers.atlassian.com) for the Atlassian [SourceTree](http://www.sourcetreeapp.com) app to manage the project. 
 
 If you're using the terminal, run from the project's root directory:
 
