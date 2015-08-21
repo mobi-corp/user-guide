@@ -1,7 +1,7 @@
 // DEFAULT LAYOUT
-
 .page-content {
   min-height: 35em;
+  width: 100%;
   &, * {
     box-sizing: border-box;
   }
@@ -14,11 +14,17 @@
 .content-wrapper {
 //  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 //  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  position: relative;
-  h2 {
-    font-weight: 100;
-    font-size: 2em;
+
+  h2, h3 {
     font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 2em 0 1em;
   }
 
 //  @include media-query($on-laptop) {
@@ -31,94 +37,40 @@
 
 // SIDEBAR LAYOUT
 
+
 .sidebar {
   .page-content {
     @extend %clearfix;
     
-    h1 + h3 {
-      color: $text-color;
-      font-size: 1.5em;
-      margin-top: 0;
-      font-weight: 100;
-      font-family: $base-font-family;
-    }
     h2 {
-      padding: 1.5em 0 1em;
+      padding: 4em 0 1em;
+      &:first-child {
+      }
     }
     p {
       text-align: justify;
       display: block;
-    }
-    img {
-      width: 100%;
-      display: block;
-      margin: $spacing-unit * 1/4 auto $spacing-unit * 3/4;
-      text-align: center;
-      border: 1px solid $grey-3;
-      border-radius: 5px;
     }
     p a {
       border: 1px solid $brand-color;
       border-radius: 3px;
     }
   }
-  
-  .content-wrapper, .page-nav {
-    display: inline-block;
-    margin: 0;
-    float: left;
-    box-sizing: border-box;
-  }
   .content-wrapper {
-    width: 74%;
-    padding: 1em 3em;
+    padding: 1em 15em;
   }
-  .page-nav {
-    width: 25%;
-    min-width: 240px;
-  }
-  .nav-wrapper {
-    background-color: #f0f0f0;
-    margin: 0 1em 1em 0;
-    padding: 3em 1.5em;
-    ul {
-      list-style-type: none;
-      line-height: 1.5;
-    }
-    li {
-      margin: 0.5em 0;
-      padding: 0.3em 0.2em;
-      background: $grey-2;
-      border-left: 5px solid $grey-5;
-      width: 100%;
-      a {
-        color: $text-color;
-        white-space: normal;
-        width: 100%;
-      }
-      &:hover, &:active, &:focus {
-        background-color: $brand-color-light;
-        border-left-color: $brand-color-dark;
-        a {
-          color: $brand-color-dark;
-        }
-      }
-    }
-  }
-  
+
   .select-wrapper {
     display: none;
   }
 
   @include media-query($on-laptop) {
-    .content-wrapper, .page-nav {
-      float: none;
-      display: block;
-      width: 100%;
+    .content-wrapper {
+      padding: 1em 5em;
     }
     
-    .page-nav ul {
-      display: none;
+    .page-nav {
+      width: 100%;
     }
     
     .nav-wrapper {

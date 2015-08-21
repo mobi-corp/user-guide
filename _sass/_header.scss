@@ -1,10 +1,12 @@
 /**
 * Site header
 */
+
 .site-header {
   background: #414042;
   width: 100%;
   z-index: 2;
+  position: fixed;
   h1 {
     color: #f7f7f7;
     position: relative;
@@ -42,28 +44,35 @@
   text-align: center;
   color: $black-color-light;
   font-size: 2em;
+  padding: 1em 1.5em 1em .5em;
+  border-radius: 2em;
+  -moz-transition: background-color 1s linear;
+  -webkit-transition: background-color 1s linear;
+  -o-transition: background-color 1s linear;
+  transition: background-color 1s linear;
   &:hover {
-    color: $black-color-light;
+    color: #fff;
+    cursor: pointer;
   }
 }
 
 .search-icon {
   display: none;
-  right: 2.5em;
-  a[class*="icon-"] {
-    font-size: 1.2em;
-    cursor: pointer;
-    position: relative;
-    top: -0.5em;
-    color: $black-color-light;
-    &:hover {
-      color: darken($background-color, 20%);
-    }
-  }
+  margin-right: 0.1em;
 }
 
 .menu-icon {
-  right: 0.5em;
+  right: 0.25em;
+  top: 0.4em;
+}
+
+.icon-toggled {
+  background-color: $brand-color;
+  color: white !important;
+  -moz-transition: background-color 1s ease-in;
+  -webkit-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in;
 }
 
 .is-sticky .site-header {
@@ -74,45 +83,62 @@
 .tabs {
   background-color: $brand-color;
   min-height: 0.5em;
-  padding-left: 23.75%;
+  padding-left: 1em;
   a {
-    color: #ffffff;
-    font-size: 1.5em;
     display: none;
-    margin: 0;
-    height: 1.8em;
-    padding: 0 1em;
-    &.selected, &:hover {
-      background-color: $background-color;
-      color: $black-color;
-    }
+  }
+}
+
+.products .tabs a {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 0;
+  height: 1.8em;
+  padding: 0 1em;
+  &.selected, &:hover {
+    background-color: $background-color;
+    color: $black-color;
+  }
+  &#pageNavIcon {
+    margin-right: 0.16em;
   }
 }
 
 @include media-query($on-laptop) {
-  .tabs .top {
-    // Don't need back to top functionality on screens/devices that already have it built in.
-    display: none !important;
+  .tabs {
+    padding-left: 1em;
+    .top {
+      // Don't need back to top functionality on screens/devices that already have it built in.
+      display: none !important;
+    }
   }
 }
 
 @include media-query($on-palm) {
   .site-header h1 {
-    left: 2.8em;
+    left: 2.5em;
     top: 0.7em;
     font-size: 2em;
   }
   
   .site-title {
-    background-position: 0.25em 1em;
+    background-position: 0.5em 1.45em;
     background-size: 5em 2.25em;
     height: 4.5em;
     width: 8.5em;
   }
+  
+  .top-nav-icon {
+    top: 0.25em;
+  }
+  
+  .menu-icon {
+    right: 0.5em;
+  }
 
   .search-icon {
     display: inline-block;
-    right: 1.8em;
+    right: 2.5em;
   }
   
   .tipue-search-form {
@@ -123,7 +149,7 @@
     right: 0;
     top: 5em;
     text-align: center;
-    background: rgba(65, 64, 66, 0.91);
+    background: rgba(darken($black-color, 10%), 0.91);
     padding: 2em 0;
     input#tipue_search_input {
       margin: 0 auto;

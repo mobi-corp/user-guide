@@ -1,5 +1,48 @@
 // SPECIAL STRING AND ELEMENTS STYLING
 
+.products {
+  font-size: $base-font-size * 1.1;
+  // A the top of the product pages, where a sub-title follows the title
+  h1 + h3 {
+    color: $text-color;
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: 100;
+    font-family: $base-font-family;
+  }
+  // A the top of the product pages (after the h3 su-btitle),
+  // there doesn't need to be such a big gap above the first H2
+  h3 + h2 {
+    padding-top: 0 !important;
+  }
+  h2 + h3, h2 + p img {
+    margin-top: -1em;
+  }
+  h3 + p img {
+    margin-top: 0;
+  }
+  p img {
+    width: 100%;
+    display: block;
+    margin: $spacing-unit * 2 auto $spacing-unit * 3/4;
+    text-align: center;
+    border: 1px solid $grey-3;
+    border-radius: 5px;
+  }
+  .page-content {
+    ul {
+      background-color: $grey-1;
+      border-radius: 4px;
+      padding: 1em;
+      margin-bottom: 1em;
+      list-style-position: inside;
+    }
+    li {
+      list-style-type: circle;
+    }
+  }
+}
+
 a[href*="/documents/"] {
   background-color: $brand-color;
   color: $background-color;

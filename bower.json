@@ -6,7 +6,7 @@
     "Tina <tbizaca@mobicorp.com>"
   ],
   "description": "User support guide",
-  "main": "app.js",
+  "main": "main.js",
   "license": "MIT",
   "private": true,
   "ignore": [

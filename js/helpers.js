@@ -14,22 +14,13 @@ tipueSearchToggleIcon.click(function() {
   tipueSearchForm.slideToggle(600, "swing");
 });
 
-// Toggle navigation menu
-
-var navMenuToggleIcon = $('.menu-icon');
-var trigger = $('.trigger');
-
-navMenuToggleIcon.click(function(){
-  trigger.toggle();
-});
-
 // Vendor
 
 //Tipuesearch, Sticky JS
 $(document).ready(function() {
   $('#tipue_search_input').tipuesearch();
   $('.site-header').sticky({});
-  $('.site-header').on("sticky-start", function() {
+  $('.products .site-header').on("sticky-start", function() {
     $('.tabs').append('<a href="#" class="top" style="display: inline-block;">Back to top</a>');
   }).on("sticky-end", function() {
     $('.tabs .top').remove();

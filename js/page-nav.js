@@ -5,7 +5,6 @@ var headerIds = headerTag.map(function() {return this.id;}).get();
 // Grab all the header text within the h2 tags and create an array
 var headerList = headerTag.map(function() {return this.innerHTML;}).get();
 
-
 //var headerText = function(){
 //  return headerTag.text();
 //};
@@ -66,6 +65,27 @@ $pageNavSelectHTML.change(function(){
   window.location = $pageNavSelectHTML.val();
 });
 
+/////////////////
+
+var pageNavIcon = $("#pageNavIcon");
+var pageNavIconSpan = $("#pageNavIcon span");
+var pageNav = $(".page-nav");
+var pageNavWrapper = $(".page-nav .wrapper");
+
+// --- PAGE NAVIGATION (LIST ICON) ---
+
+// Toggle animation for menu when clicking page nav icon
+
+function togglePageNav() {
+  pageNav.animate({width: 'toggle'});
+  pageNavIconSpan.toggleClass("icon-list-bullet icon-x", 'linear');
+  pageNavWrapper.toggle();
+}
+
+pageNavIcon.click(togglePageNav);
+
+$('.page-nav li a').click(togglePageNav);
+
 
 // NEED TO REVISIT
 // Trying to get the page to scroll a bit up to offset the height of the 
@@ -76,3 +96,5 @@ $pageNavSelectHTML.change(function(){
 //  $('html,body').animate({scrollTop: (targetOffset().top) - header_height }, 1000);
 //});
 //
+
+

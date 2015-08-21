@@ -76,12 +76,14 @@ $on-desktop:       1200px;
 
 @import
         "vendor/visualcaptcha-overrides",
+        "vendor/treehouse-contact-form",
         "utilities/mixins",
         "utilities/mobi-icons",
         "base",
         "tipue-search-custom",
         "header",
         "site-nav",
+        "page-nav",
         "layout",
         "homepage",
         "products",

@@ -1,4 +1,5 @@
 var hamburgerIcon = $(".menu-icon");
+var searchIcon = $(".search-icon");
 var siteNav = $(".site-nav");
 var pageId = $('body').prop("id");
 var menuItems = $('.menu-item');
@@ -9,8 +10,19 @@ var products = ['appointment', 'plan', 'resource', 'territory', 'dispatch', 'rou
 // --- MAIN PAGE NAVIGATION (HAMBURGER ICON) ---
 
 // Toggle animation for menu when clicking hamburger icon (desktop)
-hamburgerIcon.click(function(){
+
+function toggleMenuIcon($icon){
+  $icon.toggleClass("icon-toggled", 'linear');
+}
+
+searchIcon.click(function() {
+  toggleMenuIcon($(this));
+});
+
+hamburgerIcon.click(function() {
   siteNav.animate({width: 'toggle'});
+  toggleMenuIcon($(this));
+  $(this).toggleClass("icon-list-plain icon-x", 'linear');
 });
 
 

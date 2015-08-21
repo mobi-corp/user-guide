@@ -12,3 +12,13 @@ input#tipue_search_input {
   background-position: 15px 12px;
   display: block;
 }
+
+#Search .page-content .wrapper {
+  padding: 1em 2.2em;
+}
+
+@include media-query($on-palm) {
+  .tipue-search-form {
+    z-index: 10;
+  }
+}

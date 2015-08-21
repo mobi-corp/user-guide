@@ -10,6 +10,6 @@ twitter_username: mobi_corp
 facebook_username: mobi.Austin
 google_username: +Mobicorp
 linkedin_username: mobi-
-
+exclude: [node_modules, gulpfile.js]
 # Build settings
 markdown: kramdown

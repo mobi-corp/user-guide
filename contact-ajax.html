@@ -1,0 +1,43 @@
+---
+layout: contact
+title: Contact Us
+permalink: /contact-ajax/
+---
+        
+<div id="form-messages"></div>
+
+<div class="form-wrapper">
+    <h1>Contact Form</h1>
+    <h3>Fill out the form below and a support ticket will be created for you.</h3>
+    <form  id="" name="mobiContactForm" method="POST" action="http://formspree.io/tina.bizaca@gmail.com">
+        <div class="two column">
+            <label for="name">First Name</label>
+            <input id="name" type="text" name="name" required>
+            <p class="error-text">
+                Your name is required
+            </p>
+        </div>
+        <!--<div class="two column">-->
+            <!--<label for="lastName">First Name</label>-->
+            <!--<input id="lastName" type="text" name="lastName" required>-->
+            <!--<p class="error-text">-->
+                <!--Your last name is required-->
+            <!--</p>-->
+        <!--</div>-->
+        <div class="two column">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+            <p class="error-text">
+                Your email is required
+            </p>
+        </div>
+        <div class="two column">
+            <label for="message">Message</label>
+            <textarea id="message" type="text" name="message" required></textarea>
+            <p class="error-text">
+                A message is required
+            </p>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
