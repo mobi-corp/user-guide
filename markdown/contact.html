@@ -3,76 +3,34 @@ layout: contact
 title: Contact Us
 permalink: /contact/
 ---
+        
+<div id="form-messages"></div>
 
-<div class="form-wrapper" ng-controller="contactFormController as contactForm">
+<div class="form-wrapper">
     <h1>Contact Form</h1>
     <h3>Fill out the form below and a support ticket will be created for you.</h3>
-    <form id="mobiContactForm" name="mobiContactForm" ng-submit="submitForm(mobiContactForm.$valid)" novalidate>
-        <div class="row">
-            <div class="two column" ng-class="{ 'has-error' : mobiContactForm.firstName.$invalid && mobiContactForm.firstName.$touched }">
-                <label>First Name</label>
-                <input type="text" name="firstName" ng-model="formInputs.firstName" placeholder="Joe" required tabindex=1>
-                <p class="error-text">
-                    Your first name is required
-                </p>
-            </div>
-            <div class="two column" ng-class="{ 'has-error' : mobiContactForm.lastName.$invalid && mobiContactForm.lastName.$touched }">
-                <label>Last Name</label>
-                <input type="text" name="lastName" ng-model="formInputs.lastName" placeholder="Smith" required tabindex=2>
-                <p class="error-text">
-                    Your last name is required
-                </p>
-            </div>
+    <form  id="" name="mobiContactForm" method="POST" action="http://formspree.io/tina.bizaca@gmail.com">
+        <div class="two column">
+            <label for="name">First Name</label>
+            <input id="name" type="text" name="name" required>
+            <p class="error-text">
+                Your name is required
+            </p>
         </div>
-        <div class="row">
-            <div class="two column" ng-class="{ 'has-error' : mobiContactForm.company.$invalid && mobiContactForm.company.$touched }">
-                <label>Company</label>
-                <input type="text" name="company" ng-model="formInputs.company" placeholder="Joe's Lawn Care" required tabindex=3>
-                <p class="error-text">
-                    Your company name is required
-                </p>
-            </div>
-            <div class="two column" ng-class="{ 'has-error' : mobiContactForm.phone.$invalid && mobiContactForm.phone.$touched }">
-                <label>Phone</label>
-                <input type="tel" name="phone" ng-model="formInputs.phone" placeholder="555-555-5555" data-numeric="numeric" data-allow-float="true" ng-pattern="/([0-9]{3}-[0-9]{3}-[0-9]{4})/" required tabindex=4>
-                <p class="error-text">
-                    Your phone is required
-                </p>
-            </div>
-        </div>
-        <div class="row" ng-class="{ 'has-error' : mobiContactForm.email.$invalid && mobiContactForm.email.$touched }">
-            <label>Email</label>
-            <input type="email" name="email" ng-model="formInputs.email" placeholder="joe@joeslawncare.com" required tabindex=5>
+        <div class="two column">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
             <p class="error-text">
                 Your email is required
             </p>
         </div>
-        <div class="row">
-            <div class="two column">
-                <label>Problem is in:</label>
-                <select class="fake-select" name="issueArea" ng-model="formInputs.issueArea" value="general" form="mobiContactForm">
-                    <option value="general">General</option>
-                    <option value="appointment">Appointment</option>
-                    <option value="route">Route</option>
-                </select>
-            </div>
-            <div class="two column">
-                <label>Issue Type</label>
-                <select class="fake-select" name="issueType" ng-model="formInputs.issueType" value="general" form="mobiContactForm">
-                    <option value="general">General</option>
-                    <option value="bug">Bug</option>
-                    <option value="request">Request</option>
-                </select>
-            </div>
-        </div>
-        <div class="row" ng-class="{ 'has-error' : mobiContactForm.description.$invalid && mobiContactForm.description.$touched }">
-            <label>Description</label>
-            <textarea ng-model="formInputs.description" name="description" required tabindex=6></textarea>
+        <div class="two column">
+            <label for="message">Message</label>
+            <textarea id="message" type="text" name="message" required></textarea>
             <p class="error-text">
-                A description is required
+                A message is required
             </p>
         </div>
-
-        <button type="submit" ng-disabled="mobiContactForm.$invalid" tabindex="8">Submit</button>
+        <button type="submit">Submit</button>
     </form>
 </div>

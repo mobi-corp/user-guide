@@ -9,7 +9,6 @@ permalink: /route/
 ### Route planning software
 
 ## Getting started
-![](/images/route-ss-1.jpg)
 
 To get started, select the level you wish to create a plan for.  Select the date range that you want to view if
 it’s not currently selected by using the arrow buttons or by clicking on the date itself to use the date picker.  
