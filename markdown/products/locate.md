@@ -158,7 +158,12 @@ A **schedule report** sends a visit report via **email**, either as a **one-time
 
 ![mobi.Locate schedule reports](/img/locate/locate-ss-schedule-report.png)
 
-Click the mail icon **next to the PDF and Excel icon**. A pop-up window will appear for you to enter a report name, email address, and when you want to receive the report. Select a date range for when you want to receive the report, then choose if you want to receive the report as a one-time, daily, or weekly report.
+Click the mail icon **next to the PDF and Excel icon**. A pop-up window will appear for you to enter a report name, email address, 
+and when you want to receive the report. Select a date range for when you want to receive the report, 
+then choose if you want to receive the report as a one-time, daily, or weekly report.
+
+To view all scheduled reports that you've created, please follow the 
+instructions in the [mobi.Resource User Guide](/resource/#schedule-reports).
 
 ## Safety reports
 
@@ -172,7 +177,8 @@ To filter which speeding instance you see, click the **Filter** button at the to
 
 ![mobi.Locate safety reports](/img/locate/locate-ss-safety-speed-link.png)
 
-To view **speeding instances**, click your **branch**, then click the number by your branch under the **Speeding Instances column** to view the drivers at this branch with speeding instances.
+To view **speeding instances**, click your **branch**, then click the number by your branch under the **Speeding Instances 
+column** to view the drivers at this branch with speeding instances.
 
 ### Speeding instances
 
@@ -200,9 +206,7 @@ You can view **Total Idle Time**, **Low Battery, Excessive Mileage**, **Off Hour
 
 To view **maintenance reminders**, click the **Maintenance** tab on the left side of the menu.
 
-// ADD LINK TO #(position on Resource Guide regarding maintenance reminders)
-
-To create maintenance reminders for your vehicles, please follow the instructions in the [mobi.Resource User Guide](/resource).
+To create maintenance reminders for your vehicles, please follow the instructions in the [mobi.Resource User Guide](/resource/#maintenance-reminders).
 
 ## Location report
 

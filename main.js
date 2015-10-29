@@ -4,11 +4,17 @@
 var express = require( 'express' ),
   bodyParser = require( 'body-parser' ),
   sessions = require( 'client-sessions' ),
+  nodemailer = require( 'nodemailer'),
   app = express(),
   _getAudio,
   _getImage,
   _startRoute,
   _trySubmission;
+
+var log = function(req, res, next) {
+  console.log('Logging');
+  res.end();
+};
 
 // Set session information
 app.use( sessions({
@@ -164,6 +170,37 @@ app.use( express.static( __dirname + '/_site' ) );
 //
 //// @param howmany is required, the number of images to generate
 //app.get( '/contact/start/:howmany', _startRoute );
+
+app.get('/contact', function(request, response){
+  response.send('hello world');
+});
+
+app.post('/contact', function(request, response) {
+  console.log(request);
+  response.send(200);
+  //var transporter = nodemailer.createTransport({
+  //  service: 'Gmail',
+  //  auth: {
+  //    user: 'tina.bizaca@gmail.com',
+  //    pass: 'croatia5'
+  //  }
+  //});
+  //
+  //var mailOptions = {
+  //  from: 'tina.bizaca@gmail.com',
+  //  to: 'tbizaca@mobicorp.com',
+  //  subject: 'It worked!',
+  //  text: 'Hello World!'
+  //};
+  //
+  //transporter.sendMail(mailOptions, function(error, info) {
+  //  if (error) {
+  //    console.log(error);
+  //  } else {
+  //    console.log('Message sent' + info.response);
+  //  }
+  //});
+});
 
 module.exports = app;
 

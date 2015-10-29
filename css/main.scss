@@ -75,7 +75,6 @@ $on-desktop:       1200px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 @import
-        "vendor/visualcaptcha-overrides",
         "vendor/treehouse-contact-form",
         "utilities/mixins",
         "utilities/mobi-icons",

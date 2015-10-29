@@ -18,11 +18,11 @@ tipueSearchToggleIcon.click(function() {
 
 //Tipuesearch, Sticky JS
 $(document).ready(function() {
-  $('#tipue_search_input').tipuesearch();
   $('.site-header').sticky({});
   $('.products .site-header').on("sticky-start", function() {
     $('.tabs').append('<a href="#" class="top" style="display: inline-block;">Back to top</a>');
   }).on("sticky-end", function() {
     $('.tabs .top').remove();
   });
+  $('#tipue_search_input').tipuesearch();
 });
