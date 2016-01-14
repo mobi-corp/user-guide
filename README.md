@@ -100,3 +100,4 @@ If attempting to use Adobe Edge Inspect (observed on iPhone 6 iOS 8) to view the
 
 > **$ jekyll serve --host 0.0.0.0**
 
+
