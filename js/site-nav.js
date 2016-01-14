@@ -57,7 +57,7 @@ if ( $("body")[0].hasAttribute("faq") ) {
   $(".tabs .main").attr("href", "../");
   $(".tabs .faq").addClass("selected");
 } else {
-  $(".tabs .faq").attr("href", "/" + pageId + "/faq");
+  $(".tabs .faq").attr("href", "{{ site.baseurl }}/" + pageId + "/faq");
   $(".tabs .main").addClass("selected");
 }
 
