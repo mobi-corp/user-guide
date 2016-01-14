@@ -54,11 +54,6 @@
   .select-wrapper {
     display: none;
   }
-  @include media-query($on-palm) {
-    .content-wrapper {
-      padding: 1em 2em;
-    }
-  }
 
   @include media-query($on-laptop) {
     .content-wrapper {
@@ -95,6 +90,12 @@
       color: $text-color;
       width: 100%;
       height: 32px;
+    }
+  }
+  
+  @include media-query($on-palm) {
+    .content-wrapper {
+      padding: 1em 2em;
     }
   }
 }
