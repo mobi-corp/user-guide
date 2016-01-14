@@ -46,7 +46,7 @@ mobi.Route
 
 ## Adding planned visits from a spreadsheet
 
-[Download template spreadsheet](/documents/route_template.xlsx)
+[Download template spreadsheet]({{ site.baseurl }}/documents/route_template.xlsx)
 
 Adding visits from spreadsheet: 
  

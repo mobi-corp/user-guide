@@ -163,7 +163,7 @@ and when you want to receive the report. Select a date range for when you want t
 then choose if you want to receive the report as a one-time, daily, or weekly report.
 
 To view all scheduled reports that you've created, please follow the 
-instructions in the [mobi.Resource User Guide](/resource/#schedule-reports).
+instructions in the [mobi.Resource User Guide]({{ site.baseurl }}/resource/#schedule-reports).
 
 ## Safety reports
 
