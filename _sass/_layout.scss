@@ -12,8 +12,6 @@
 }
 
 .content-wrapper {
-//  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-//  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
 
   h2, h3 {
     font-family: "Open Sans", sans-serif;
@@ -26,13 +24,6 @@
     font-size: 1.5em;
     margin: 2em 0 1em;
   }
-
-//  @include media-query($on-laptop) {
-//    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-//    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-//    padding-right: $spacing-unit;
-//    padding-left: $spacing-unit;
-//  }
 }
 
 // SIDEBAR LAYOUT
@@ -62,6 +53,11 @@
 
   .select-wrapper {
     display: none;
+  }
+  @include media-query($on-palm) {
+    .content-wrapper {
+      padding: 1em 2em;
+    }
   }
 
   @include media-query($on-laptop) {
