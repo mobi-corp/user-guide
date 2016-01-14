@@ -22,19 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="appointment.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/products/appointment.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="connect.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdown/products/connect.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,8 +38,8 @@
       <file leaf-file-name="locate.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8823528">
-              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            <state vertical-scroll-proportion="-3.5294118">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -61,13 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site-nav.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site-nav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/site-nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06198347">
+            <state vertical-scroll-proportion="-0.8333333">
               <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markdown/products/resource.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2877698">
+              <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -160,7 +160,6 @@
         <option value="$PROJECT_DIR$/mailer.php" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/_sass/_products.scss" />
-        <option value="$PROJECT_DIR$/markdown/products/resource.md" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
@@ -176,6 +175,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/markdown/products/locate.md" />
         <option value="$PROJECT_DIR$/js/site-nav.js" />
+        <option value="$PROJECT_DIR$/markdown/products/resource.md" />
       </list>
     </option>
   </component>
@@ -646,12 +646,12 @@
       <workItem from="1447108449262" duration="4317000" />
       <workItem from="1447344029272" duration="39000" />
       <workItem from="1452788630290" duration="595000" />
-      <workItem from="1452790445413" duration="2982000" />
+      <workItem from="1452790445413" duration="3056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35840000" />
+    <option name="totallyTimeSpent" value="35914000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -917,16 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/products/resource.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46071905">
-          <caret line="221" column="44" selection-start-line="221" selection-start-column="44" selection-end-line="221" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1143,17 +1133,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8823528">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markdown/products/faq/locate-faq.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1167,10 +1146,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/site-nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06198347">
+        <state vertical-scroll-proportion="-0.8333333">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5294118">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/products/resource.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2877698">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
