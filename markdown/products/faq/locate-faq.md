@@ -1,6 +1,6 @@
 ---
 layout: products
-title: Locate FAQ
+title: Locate
 permalink: /locate/faq/
 ---
 
