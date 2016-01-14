@@ -46,7 +46,7 @@ menuItems.each(function(i){
 for ( var i = 0; i < products.length; i++ ) {
   if ( products[i].toLowerCase() !== pageId.toLowerCase() ) {
     // Then show tab items
-    $(".tabs a").hide();
+    //$(".tabs a").hide();
   }
 }
 
