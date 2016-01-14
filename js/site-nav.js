@@ -44,9 +44,9 @@ menuItems.each(function(i){
 
 // If page id is a product name then show the tabs
 for ( var i = 0; i < products.length; i++ ) {
-  if ( products[i].toLowerCase() === pageId.toLowerCase() ) {
+  if ( products[i].toLowerCase() !== pageId.toLowerCase() ) {
     // Then show tab items
-    $(".tabs a").css('display', 'inline-block');
+    $(".tabs a").hide();
   }
 }
 
