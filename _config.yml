@@ -3,7 +3,7 @@ title: mobi.Support
 email: support@mobicorp.com
 description: > # this means to ignore newlines until "baseurl:"
   Learn how to use your mobi solutions with the user manual or get in touch if you don't see what you're looking for.
-baseurl: /User-Guide/" # the subpath of your site, e.g. /blog/
+baseurl: /User-Guide" # the subpath of your site, e.g. /blog/
 url: "http://www.mobicorp.com" # the base hostname & protocol for your site
 website: "www.mobicorp.com"
 twitter_username: mobi_corp
