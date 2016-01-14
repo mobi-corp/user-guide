@@ -159,8 +159,11 @@
     }
   }
   
-  .tabs a {
-    font-size: 1.2em;
-    height: 2em;
+  .tabs {
+      padding: 0;
+    a {
+      font-size: 1.2em;
+      height: 2em;
+    }
   }
 }

@@ -92,7 +92,7 @@
       height: 32px;
     }
   }
-  
+
   @include media-query($on-palm) {
     .content-wrapper {
       padding: 1em 2em;
