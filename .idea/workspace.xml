@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locate.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="locate.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47482014">
+            <state vertical-scroll-proportion="-3.8823528">
               <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
               <folding />
             </state>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site-nav.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="site-nav.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/site-nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.333334">
-              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.8007968">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/_layouts/products.html" />
         <option value="$PROJECT_DIR$/_sass/utilities/_mobi-icons.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/site-nav.js" />
         <option value="$PROJECT_DIR$/markdown/products/locate.md" />
+        <option value="$PROJECT_DIR$/js/site-nav.js" />
       </list>
     </option>
   </component>
@@ -611,12 +611,12 @@
       <workItem from="1447108449262" duration="4317000" />
       <workItem from="1447344029272" duration="39000" />
       <workItem from="1452788630290" duration="595000" />
-      <workItem from="1452790445413" duration="2217000" />
+      <workItem from="1452790445413" duration="2245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35075000" />
+    <option name="totallyTimeSpent" value="35103000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1115,23 +1115,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/site-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.333334">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47482014">
+        <state vertical-scroll-proportion="-3.8823528">
           <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/site-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8007968">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
