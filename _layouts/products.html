@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id={{page.title}}>
+    <div class="products sidebar">
+        
+        {% include header.html %}
+
+        <div class="page-content">
+          <!--<div class="page-nav">-->
+              <!--<div class="nav-wrapper">-->
+                <!--<h3>Jump to a section:</h3>-->
+                  <!--<ul id="page-nav-list">-->
+                  <!--</ul>-->
+              <!--</div>-->
+          <!--</div>-->
+          <div class="content-wrapper">
+              
+            {{ content }}
+              
+          </div>
+        </div>
+
+        <div class="sticky-footer-wrapper">
+            <a href="/contact" title="Go to the contact page">
+                <span class="icon-chat"></span>
+            </a>
+        </div>
+        {% include footer.html %}
+        
+      </div>
+  </body>
+
+</html>

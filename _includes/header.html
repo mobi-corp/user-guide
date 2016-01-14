@@ -1,0 +1,48 @@
+<!-- Capture and store a URL -->
+{% capture location %} {{ page.url }} {% endcapture %}
+        
+<header class="site-header">
+  <div class="top-header">
+    <a class="site-title" href="{{ site.baseurl }}/"></a>
+    <h1>.{{ page.title }}</h1>
+   <!-- Site Search Icon -->
+    <a class="top-nav-icon search-icon icon-magnifying-glass"></a>
+    <form class="tipue-search-form" action="/search-results/">
+        <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Keyword" required>
+    </form>
+
+    <!--Site Nav Icon-->
+    <a href="#" class="top-nav-icon menu-icon icon-list-plain">
+    </a>
+    <nav class="site-nav">
+        <div class="main menu">
+            <a class="menu-item" href="/"><span class="icon-home"></span> Home</a>
+            <a class="menu-item" href="/general/"><span class="icon-support"></span> General</a>
+        </div>
+        <div class="product menu">
+            <a class="menu-item" href="/territory/"><span class="icon-app-territory"></span>Territory</a>
+            <a class="menu-item" href="/plan/"><span class="icon-app-plan"></span>Plan</a>
+            <a class="menu-item" href="/resource/"><span class="icon-app-resource"></span>Resource</a>
+            <a class="menu-item" href="/appointment/"><span class="icon-app-appointment"></span>Appointment</a>
+            <a class="menu-item" href="/route/"><span class="icon-app-route"></span>Route</a>
+            <a class="menu-item" href="/dispatch/"><span class="icon-app-dispatch"></span>Dispatch</a>
+            <a class="menu-item" href="/connect/"><span class="icon-app-connect"></span>Connect</a>
+            <a class="menu-item" href="/locate/"><span class="icon-app-locate"></span>Locate</a>
+            <a class="menu-item" href="/insight/"><span class="icon-app-insight"></span>Insight</a>
+            <a class="menu-item" href="/result/"><span class="icon-app-result"></span>Result</a>
+        </div>
+    </nav>
+    <div class="page-nav">
+      <div class="wrapper">
+        <h3>Jump to:</h3>
+        <ul id="page-nav-list">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="tabs">
+    <a id="pageNavIcon"><span class="icon-list-bullet"</a>
+    <a class="main">User Manual</a>
+    <a class="faq">FAQ</a>
+  </div>
+</header>

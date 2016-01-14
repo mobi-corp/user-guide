@@ -1,0 +1,135 @@
+@import "utilities/mixins";
+@import "vendor/bootstrap/bootstrap/variables";
+@import "vendor/bootstrap/bootstrap/mixins/reset-filter";
+@import "vendor/bootstrap/bootstrap/dropdowns";
+
+.form-wrapper {
+  max-width: 38em;
+  margin: 1em auto;
+  background-color: lighten($grey-2, 5%);
+  border-radius: 5px;
+  padding: 2em;
+  text-align: left;
+  h1, h2, h3 {
+    text-align: center;
+  }
+  .row {
+    margin-bottom: 0.5em;
+    @extend .clearfix;
+  }
+  .row {
+    &, input, label, .fake-select-wrap, button.dropdown-toggle, textarea {
+      width: 100%;
+    }
+  }
+  .two.column {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    input, label, .fake-select-wrap, button.dropdown-toggle, textarea {
+      display: block;
+      width: 100%;
+    }
+    &:first-child {
+      padding-right: 1.5%;
+    }
+    &:last-child {
+      padding-left: 1.5%;
+    }
+  }
+}
+
+label {
+  font-weight: 500;
+  color: $black-color;
+}
+
+label, input, textarea {
+  display: inline-block;
+}
+
+textarea {
+  min-height: 6em;
+}
+
+input, .dropdown-toggle, textarea {
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 1px solid $grey-2;
+  margin: 0.25em 0;
+  background: #fff;
+  text-align: left;
+  outline: none;
+  color: $text-color;
+}
+
+.dropdown-toggle {
+  margin-bottom: 0;
+  &:hover {
+    background-color: $grey-2;
+    border-color: $grey-3;
+    cursor: pointer;
+  }
+}
+
+.caret {
+  float: right;
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+
+.dropdown-menu {
+  font-size: 1em;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  margin-top: 0;
+  li {
+    margin-left: 0;
+    a:hover, a:focus {
+      background-color: rgba($brand-color-light, 0.5);
+      color: $brand-color-dark;
+    }
+  }
+}
+
+button, .button, button[type="submit"] {
+  width: 100%;
+  text-align: center;
+  background: $brand-color;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5em;
+  color: #fff;
+  font-size: $font-size-h4;
+  font-family: $base-font-family;
+  &:disabled {
+    background: $grey-6;
+    &:hover {
+      background: $grey-7;
+    }
+  }
+  &:hover {
+    background: $brand-color-dark;
+  }
+}
+
+.error-text {display: none;}
+
+.has-error {
+  input, textarea {
+    border: 1px solid $error-color;
+    color: $error-color;
+  }
+  .error-text {
+    display: inline-block;
+    padding: 0.5em;
+    background: $error-color;
+    color: #f7f7f7;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0.25em 0 0;
+  }
+}

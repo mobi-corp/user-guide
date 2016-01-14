@@ -1,0 +1,230 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+  margin: 1em 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+//    background-color: $background-color;
+    background-color: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  color: $black-color;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+.green {
+  color: $brand-color;
+}
+
+strong {
+  font-weight: 500;
+  color: $black-color;
+  white-space: nowrap;
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+ul, ol {
+  li {
+    margin-left: 0.5em;
+  }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 3px;
+    font-weight: 300;
+    white-space: nowrap;
+    &:hover {
+        color: $brand-color-dark;
+    }
+}
+
+p a:hover {
+  background: $brand-color-light;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-5;
+    background: $grey-2;
+    margin-left: -$spacing-unit;
+    border-left: 6px solid $black-color-light;
+    p {
+      padding: $spacing-unit / 2;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+@include media-query($on-palm) {
+  blockquote {
+    margin-left: 0;
+  }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $black-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $black-color;
+        }
+    }
+}
+
+
+// Other
+
+[href~="http://www."] {
+  background-color: yellow;
+}
+
+// Tipue Search
+
+.h01 {
+  background: $yellow-brand-color;
+  padding: 0 3px;
+}

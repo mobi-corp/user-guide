@@ -1,0 +1,104 @@
+// DEFAULT LAYOUT
+.page-content {
+  min-height: 35em;
+  width: 100%;
+  &, * {
+    box-sizing: border-box;
+  }
+  h1 {
+    margin: 1em 0 0;
+    color: $brand-color;
+  }
+}
+
+.content-wrapper {
+//  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+//  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+
+  h2, h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 2em 0 1em;
+  }
+
+//  @include media-query($on-laptop) {
+//    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+//    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+//    padding-right: $spacing-unit;
+//    padding-left: $spacing-unit;
+//  }
+}
+
+// SIDEBAR LAYOUT
+
+
+.sidebar {
+  .page-content {
+    @extend %clearfix;
+    
+    h2 {
+      padding: 4em 0 1em;
+      &:first-child {
+      }
+    }
+    p {
+      text-align: justify;
+      display: block;
+    }
+    p a {
+      border: 1px solid $brand-color;
+      border-radius: 3px;
+    }
+  }
+  .content-wrapper {
+    padding: 1em 15em;
+  }
+
+  .select-wrapper {
+    display: none;
+  }
+
+  @include media-query($on-laptop) {
+    .content-wrapper {
+      padding: 1em 5em;
+    }
+    
+    .page-nav {
+      width: 100%;
+    }
+    
+    .nav-wrapper {
+      margin: 0 0 1em;
+      padding: 1em;
+    }
+
+    .select-wrapper {
+      background-color: #ddd;
+      border-left: 5px solid #909090;
+      margin: 1em 0;
+      position: relative;
+      display: block;
+      .icon-arrow-down {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+      }
+    }
+
+    #pageNavSelect {
+      border: none;
+      background: transparent;
+      font-size: 1em;
+      font-family: $base-font-family;
+      color: $text-color;
+      width: 100%;
+      height: 32px;
+    }
+  }
+}
