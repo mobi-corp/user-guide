@@ -1,7 +1,7 @@
 var hamburgerIcon = $(".menu-icon");
 var searchIcon = $(".search-icon");
 var siteNav = $(".site-nav");
-var pageId = $('body').prop("id");
+var pageId = $('body').prop("id").toLowerCase();
 var menuItems = $('.menu-item');
 var products = ['appointment', 'plan', 'resource', 'territory', 'dispatch', 'route', 'locate', 'connect',
                 'result', 'insight'];
