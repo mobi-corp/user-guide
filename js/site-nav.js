@@ -44,7 +44,7 @@ menuItems.each(function(i){
 
 // If page id is a product name then show the tabs
 for ( var i = 0; i < products.length; i++ ) {
-  if ( products[i].toLowerCase() !== pageId ) {
+  if ( products[i].toLowerCase() === pageId ) {
     // Then show tab items
     console.log(products[i].toLowerCase());
     console.log(pageId);
