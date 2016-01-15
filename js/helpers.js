@@ -21,6 +21,13 @@ $(document).ready(function() {
   $('.site-header').sticky({});
   $('.products .site-header').on("sticky-start", function() {
     $('.tabs').append('<a class="top" style="display: inline-block;">Back to top</a>');
+    $('.top').click(function (event) {
+      event.preventDefault();
+      console.log('it works!');
+      $('html,body').animate({
+        scrollTop: 0
+      }, 700, 'swing');
+    });
   }).on("sticky-end", function() {
     $('.tabs .top').remove();
   });
@@ -28,12 +35,6 @@ $(document).ready(function() {
 
 // Back to top link scroll
 
-  $('.top').click(function (event) {
-    event.preventDefault();
-    console.log('it works!');
-    $('html,body').animate({
-      scrollTop: 0
-    }, 700, 'swing');
-  });
+
 
 });
