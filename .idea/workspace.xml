@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-nav.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-nav.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/page-nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.481482">
-              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.16188525">
+              <caret line="73" column="18" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-results.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search-results.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdown/search-results.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09259259">
+            <state vertical-scroll-proportion="-1.5517242">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
@@ -141,9 +141,9 @@
         <option value="$PROJECT_DIR$/js/site-nav.js" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/markdown/products/resource.md" />
-        <option value="$PROJECT_DIR$/js/page-nav.js" />
         <option value="$PROJECT_DIR$/_sass/_page-nav.scss" />
         <option value="$PROJECT_DIR$/markdown/search-results.md" />
+        <option value="$PROJECT_DIR$/js/page-nav.js" />
       </list>
     </option>
   </component>
@@ -592,12 +592,12 @@
       <workItem from="1447108449262" duration="4317000" />
       <workItem from="1447344029272" duration="39000" />
       <workItem from="1452788630290" duration="595000" />
-      <workItem from="1452790445413" duration="9021000" />
+      <workItem from="1452790445413" duration="9191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41879000" />
+    <option name="totallyTimeSpent" value="42049000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1084,14 +1084,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/tipuesearch/tipuesearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="419" column="44" selection-start-line="419" selection-start-column="24" selection-end-line="419" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.9135804">
@@ -1113,14 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/page-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.481482">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_page-nav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.958333">
@@ -1131,13 +1115,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/markdown/search-results.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09259259">
+        <state vertical-scroll-proportion="-1.5517242">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/tipuesearch/tipuesearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="419" column="44" selection-start-line="419" selection-start-column="24" selection-end-line="419" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/page-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16188525">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="18" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
