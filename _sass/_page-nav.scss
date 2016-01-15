@@ -44,6 +44,7 @@
   .page-nav {
     border-right: none;
     height: 100vh;
+    overflow: auto;
     overflow-y: scroll;
     -webkit-overflow-scrolling:touch; // mobile safari
   }
