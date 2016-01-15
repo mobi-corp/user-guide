@@ -34,6 +34,7 @@ $( document ).ready(function() {
 
   $('.top').click(function (event) {
     event.preventDefault();
+    console.log('it works!');
     $('html,body').animate({
       scrollTop: 0
     }, 700, 'swing');
