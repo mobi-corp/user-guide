@@ -26,3 +26,17 @@ $(document).ready(function() {
   });
   $('#tipue_search_input').tipuesearch();
 });
+
+
+
+// Back to top link scroll
+$( document ).ready(function() {
+
+  $('.top').click(function (event) {
+    event.preventDefault();
+    $('html,body').animate({
+      scrollTop: 0
+    }, 700, 'swing');
+  });
+
+});

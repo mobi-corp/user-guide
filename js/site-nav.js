@@ -48,7 +48,6 @@ if( $.inArray(pageId, products) === -1) {
   $(".tabs a").hide();
 }
 
-
 // Due to the way jekyll grabs the page title, a space before the faq in ("route faq") leaves
 // faq as a random undefined attribute so I identify the FAQ page using this.
 // Also, $("body") on its own was failing without an index
