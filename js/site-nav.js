@@ -43,7 +43,7 @@ menuItems.each(function(i){
 // Sass is in _header.scss
 
 // If page id is a product name then show the tabs
-if( $.inArray(pageId, products) === -1){
+if( $.inArray(pageId, products) === -1) {
   // Then hide tab items
   $(".tabs a").hide();
 }
