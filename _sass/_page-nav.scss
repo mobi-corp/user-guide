@@ -43,8 +43,5 @@
 @include media-query($on-palm) {
   .page-nav {
     border-right: none;
-    a {
-      font-size: 1.5em;
-    }
   }
 }
