@@ -20,7 +20,7 @@ tipueSearchToggleIcon.click(function() {
 $(document).ready(function() {
   $('.site-header').sticky({});
   $('.products .site-header').on("sticky-start", function() {
-    $('.tabs').append('<a href="#" class="top" style="display: inline-block;">Back to top</a>');
+    $('.tabs').append('<a class="top" style="display: inline-block;">Back to top</a>');
   }).on("sticky-end", function() {
     $('.tabs .top').remove();
   });
