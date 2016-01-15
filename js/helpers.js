@@ -25,12 +25,8 @@ $(document).ready(function() {
     $('.tabs .top').remove();
   });
   $('#tipue_search_input').tipuesearch();
-});
-
-
 
 // Back to top link scroll
-$( document ).ready(function() {
 
   $('.top').click(function (event) {
     event.preventDefault();
