@@ -43,5 +43,7 @@
 @include media-query($on-palm) {
   .page-nav {
     border-right: none;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch; // mobile safari
   }
 }
