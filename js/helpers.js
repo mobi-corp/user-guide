@@ -16,7 +16,7 @@ tipueSearchToggleIcon.click(function() {
 
 // Vendor
 
-//Tipuesearch, Sticky JS
+//Tipuesearch, Sticky JS, scrollTos
 $(document).ready(function() {
   $('.site-header').sticky({});
   $('.products .site-header').on("sticky-start", function() {
@@ -35,6 +35,20 @@ $(document).ready(function() {
   }).on("sticky-end", function() {
     $('.tabs .top').remove();
   });
+
+  $('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash;
+    var $target = $(target);
+
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+      window.location.hash = target;
+    });
+  });
+
   $('#tipue_search_input').tipuesearch();
 
 });
