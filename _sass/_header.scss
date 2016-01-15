@@ -113,7 +113,7 @@
 }
 
 @include media-query($on-palm) {
-  header.hidden {
+  .top-header.hidden {
     display: none;
   }
 

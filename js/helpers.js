@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('.tabs').append('<a class="top" style="display: inline-block;">Back to top</a>');
 
     // Hide the header (on mobile only)
-    $('header').addClass('hidden');
+    $('.top-header').addClass('hidden');
 
     // Back to top link scroll
     $('.top').click(function (event) {
@@ -39,7 +39,7 @@ $(document).ready(function() {
     $('.tabs .top').remove();
 
     // Show the header again (on mobile only)
-    $('header').removeClass('hidden');
+    $('.top-header').removeClass('hidden');
   });
 
   $('a[href^="#"]').on('click',function (e) {
