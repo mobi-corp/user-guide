@@ -43,14 +43,11 @@ menuItems.each(function(i){
 // Sass is in _header.scss
 
 // If page id is a product name then show the tabs
-for ( var i = 0; i < products.length; i++ ) {
-  if ( products[i].toLowerCase() === pageId ) {
-    // Then show tab items
-    console.log(products[i].toLowerCase());
-    console.log(pageId);
-    $(".tabs a").hide();
-  }
+if( $.inArray(pageId, products) === -1){
+  // Then hide tab items
+  $(".tabs a").hide();
 }
+
 
 // Due to the way jekyll grabs the page title, a space before the faq in ("route faq") leaves
 // faq as a random undefined attribute so I identify the FAQ page using this.
