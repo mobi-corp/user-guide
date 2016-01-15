@@ -54,11 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-results.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search-results.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdown/search-results.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09259259">
+            <state vertical-scroll-proportion="-1.5517242">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markdown/products/resource.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.8116279">
+              <caret line="237" column="103" selection-start-line="237" selection-start-column="103" selection-end-line="237" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -110,7 +123,6 @@
         <option value="$PROJECT_DIR$/_layouts/products.html" />
         <option value="$PROJECT_DIR$/_sass/utilities/_mobi-icons.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/markdown/products/resource.md" />
         <option value="$PROJECT_DIR$/markdown/products/route.md" />
         <option value="$PROJECT_DIR$/markdown/products/faq/locate-faq.md" />
         <option value="$PROJECT_DIR$/markdown/products/locate.md" />
@@ -121,6 +133,7 @@
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/_sass/_page-nav.scss" />
         <option value="$PROJECT_DIR$/markdown/search-results.md" />
+        <option value="$PROJECT_DIR$/markdown/products/resource.md" />
       </list>
     </option>
   </component>
@@ -195,7 +208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="markdown" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,11 +222,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="markdown" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tipuesearch" />
+              <option name="myItemId" value="products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -569,12 +582,12 @@
       <workItem from="1447108449262" duration="4317000" />
       <workItem from="1447344029272" duration="39000" />
       <workItem from="1452788630290" duration="595000" />
-      <workItem from="1452790445413" duration="7423000" />
+      <workItem from="1452790445413" duration="7959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40281000" />
+    <option name="totallyTimeSpent" value="40817000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -998,17 +1011,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/products/resource.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.47059">
-          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markdown/products/locate.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93093526">
@@ -1104,8 +1106,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/markdown/search-results.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09259259">
+        <state vertical-scroll-proportion="-1.5517242">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/products/resource.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8116279">
+          <caret line="237" column="103" selection-start-line="237" selection-start-column="103" selection-end-line="237" selection-end-column="103" />
           <folding />
         </state>
       </provider>

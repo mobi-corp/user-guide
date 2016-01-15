@@ -11,7 +11,7 @@ permalink: /resource/
 
 ## Getting started
 
-![Landing Screen]({{ site.baseurl }}/img/landing-screen.png)
+![Landing Screen]({{ site.baseurl }}/img/landing-screen.jpg)
 
 To access **mobi.Resource**, click the yellow weebles icon labelled **Resource** on the landing page.
 
@@ -23,24 +23,24 @@ To access mobi.Resource, click on the icon with 3 yellow mobi weebles in the top
 
 ## Summary page
 
-![mobi.Resource summary page]({{ site.baseurl }}/img/resource/resource-ss-summary-page.png)
+![mobi.Resource summary page]({{ site.baseurl }}/img/resource/resource-ss-summary-page.jpg)
 This is the summary page for mobi.Resource.
 
 
 ## Level and Branches
 
-![View your levels and branches]({{ site.baseurl }}/img/resource/resource-ss-levels-branches.png)
+![View your levels and branches]({{ site.baseurl }}/img/resource/resource-ss-levels-branches.jpg)
 
 The levels and branches tab will show you a list of your company hierarchy and addresses. 
 If you need to edit any branch information or add any new branches to your company hierarchy, 
 please contact [support@mobicorp.com](mailto:support@mobicorp.com).
 
-![Dig into your company hierarchy]({{ site.baseurl }}/img/resource/resource-ss-levels-view.png)
+![Dig into your company hierarchy]({{ site.baseurl }}/img/resource/resource-ss-levels-view.jpg)
 
 
 ## POIs
 
-![View your POI list]({{ site.baseurl }}/img/resource/resource-ss-poi-tab.png)
+![View your POI list]({{ site.baseurl }}/img/resource/resource-ss-poi-tab.jpg)
 
  You can create a list of all points of interest for your company. There are 3 different ways you can add a list of POIs:
 
@@ -50,11 +50,11 @@ please contact [support@mobicorp.com](mailto:support@mobicorp.com).
 
 ### Manually adding a new POI
 
-![Create a new POI in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-add-poi-button.png)
+![Create a new POI in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-add-poi-button.jpg)
 
 To manually create a POI, click the **Add+** tab at the top of the POI list.
 
-![Adding a new POI]({{ site.baseurl }}/img/resource/resource-ss-add-poi-modal.png)
+![Adding a new POI]({{ site.baseurl }}/img/resource/resource-ss-add-poi-modal.jpg)
 
 Your **POI ID** can be a customer number or something you create yourself, as long as it is original. 
 No two POIs can have the same ID, so make sure each is unique. 
@@ -67,20 +67,20 @@ Once you have all your information entered, click **Refresh Map** to view your P
 
 ### Geofences
 
-![POI Gefences]({{ site.baseurl }}/img/resource/resource-ss-poi-geofence-radius.png)
+![POI Gefences]({{ site.baseurl }}/img/resource/resource-ss-poi-geofence-radius.jpg)
 
 The circle around the drop pin on the map is the **geofence**. 
 You can make this circle larger or smaller by updating the **geofence radius**. Make sure the radius is in **meters**. 
 In order for the system to correlate a driver’s trip to a POI in the system, 
 the driver must make a stop within the geofence radius of the POI. 
 
-![POI list view]({{ site.baseurl }}/img/resource/resource-ss-poi-list-view.png)
+![POI list view]({{ site.baseurl }}/img/resource/resource-ss-poi-list-view.jpg)
 
 You can edit any POIs already created by clicking on the name of the POI from the list view.
 
 ## Cost models
   
-![Cost models]({{ site.baseurl }}/img/resource/resource-ss-cost-models.png)
+![Cost models]({{ site.baseurl }}/img/resource/resource-ss-cost-models.jpg)
 
 Cost models help you customize your analytics to be specific to your company and drivers’ daily operations. 
 These cost models are based on the data collected from the mobi devices installed in your vehicles. 
@@ -88,7 +88,7 @@ They capture accurate data so you can see where your company can save on costs.
 
 ## Revenue models
 
-![Revenue models]({{ site.baseurl }}/img/resource/resource-ss-revenue-models.png)
+![Revenue models]({{ site.baseurl }}/img/resource/resource-ss-revenue-models.jpg)
 
 The revenue model is your **average revenue per on site minute**. 
 
@@ -101,12 +101,12 @@ Here is a helpful formula for you to use to calculate your average revenue per o
 Driver cost models can be created for each individual driver based on **per hour cost** and/or **commission per visit**. 
 You can also update the **default driver cost model** if you want just one driver cost model to represent your entire fleet.
 
-![Driver cost models]({{ site.baseurl }}/img/resource/resource-ss-add-driver-cost-model.png)
+![Driver cost models]({{ site.baseurl }}/img/resource/resource-ss-add-driver-cost-model.jpg)
 
 To create a driver cost model, click the **Add+** tab at the top.
 Then add the **name** of your driver cost model and enter the **cost per hour amount** and/or **dollar amount for commission per visit**. 
 
-![Add a driver cost model to a driver]({{ site.baseurl }}/img/resource/resource-ss-give-driver-cost-model.png)
+![Add a driver cost model to a driver]({{ site.baseurl }}/img/resource/resource-ss-give-driver-cost-model.jpg)
 
 Next, **add the cost model to a driver** so it can be applied. Click on **Drivers** at the top. 
 Find the driver you want to assign the driver cost model to and click on **Driver Name or ID**. In the pop-up window, update the cost model for this driver.
@@ -114,7 +114,7 @@ Find the driver you want to assign the driver cost model to and click on **Drive
 
 ## Vehicle cost models
 
-![Vehicle cost models]({{ site.baseurl }}/img/resource/resource-ss-vehicle-cost-model.png)
+![Vehicle cost models]({{ site.baseurl }}/img/resource/resource-ss-vehicle-cost-model.jpg)
 
 Vehicle cost models can be created for each vehicle based on their **cost per mile** and/or **cost per gallon**. 
 You can also update the **default vehicle cost model** if you want only one vehicle cost model to represent your entire fleet.
@@ -122,7 +122,7 @@ You can also update the **default vehicle cost model** if you want only one vehi
 To create a new vehicle cost model, click the **Add+** button at the top. Then add the **name** of your vehicle cost 
 model and enter the cost per mile and/ or cost per gallon and mpg.
 
-![Add a vehicle cost model to a vehicle]({{ site.baseurl }}/img/resource/resource-ss-vehicle-gets-cost-model.png)
+![Add a vehicle cost model to a vehicle]({{ site.baseurl }}/img/resource/resource-ss-vehicle-gets-cost-model.jpg)
 
 Next, add the cost model to a vehicle for it to be applied. Click on **Vehicles** at the top of the screen. 
 Find the vehicle you want to assign the vehicle cost model to, and click on the **Vehicle ID**. 
@@ -130,11 +130,11 @@ In the pop-up window, update the **cost model** for this vehicle.
 
 ## Vehicles
 
-![Vehicles in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-vehicles.png)
+![Vehicles in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-vehicles.jpg)
 
 The Vehicle’s tab will let you **view**, **edit**, or **add to a list** of all your vehicles. 
 
-![Edit vehicles in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-vehicle-edit-modal.png)
+![Edit vehicles in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-vehicle-edit-modal.jpg)
 
 To **edit** an existing vehicle, select the vehicle you wish to edit. A pop-up window will appear. 
 Then you can reassign a **GPS device**, update the **VIN #**, enter a **description**, and add a **make and model**. 
@@ -152,11 +152,11 @@ Make sure to include the **vehicle ID** and **branch** you want to move the vehi
 
 ## Drivers
 
-![Drivers in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-drivers.png)
+![Drivers in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-drivers.jpg)
 
 The Driver tab will let you edit existing drivers or add new drivers. 
 
-![Edit drivers]({{ site.baseurl }}/img/resource/resource-ss-edit-existing-driver.png)
+![Edit drivers]({{ site.baseurl }}/img/resource/resource-ss-edit-existing-driver.jpg)
 
 To **edit an existing driver**, click on the driver you want to edit. You can edit the driver **last name** and **first name**. 
 
@@ -168,7 +168,7 @@ To learn more about this feature, please view the user guide for [mobi.Route](..
 
 To add a new driver to your fleet, click the **Add+** button at the top of screen.
 
-![Add a new driver in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-add-new-driver.png)
+![Add a new driver in mobi.Resource]({{ site.baseurl }}/img/resource/resource-ss-add-new-driver.jpg)
 
 In the pop-up window, enter how you want the driver name to appear in live map and reports. 
 Create a **unique Driver ID** (no two drivers can have the same Driver ID). 
@@ -178,12 +178,12 @@ Assign the driver to a **vehicle** and a **level**. Some optional fields you can
 
 ## Maintenance reminders
 
-![Maintenance reminders]({{ site.baseurl }}/img/resource/resource-ss-maintenance-reminders.png)
+![Maintenance reminders]({{ site.baseurl }}/img/resource/resource-ss-maintenance-reminders.jpg)
 
 To set up maintenance reminders, click on the **maintenance reminder icon** from the mobi.Resource summary page. 
 Then click the green **Add+** button at the top of the screen.
 
-![Add a maintenance reminder]({{ site.baseurl }}/img/resource/resource-ss-add-maintenance-reminder.png)
+![Add a maintenance reminder]({{ site.baseurl }}/img/resource/resource-ss-add-maintenance-reminder.jpg)
 
 Enter the **vehicle ID** of the vehicle you wish to create a reminder for in the vehicle section. 
 Create a **Reminder Name** and select the **Maintenance Type**.  
@@ -199,25 +199,25 @@ on the **Reports** tab. Then select **Maintenance Reminders**.
 
 ## Schedule reports
 
-![Schedule reports]({{ site.baseurl }}/img/resource/resource-ss-scheduled-reports.png)
+![Schedule reports]({{ site.baseurl }}/img/resource/resource-ss-scheduled-reports.jpg)
 
 To **view, edit, or delete** schedule reports that have already been created using the 
 [Schedule Reports feature in mobi.Locate](../locate/#schedule-reports), click the **Schedule Reports icon** 
 from the mobi.Resource summary page.
 
-![Edit or delete a scheduled report]({{ site.baseurl }}/img/resource/resource-ss-edit-scheduled-report.png)
+![Edit or delete a scheduled report]({{ site.baseurl }}/img/resource/resource-ss-edit-scheduled-report.jpg)
 
 To **edit** or **delete** any schedule reports, click on the report name. A pop-up window will appear that 
 will allow you to **update the report name**, **email address**, and **times** of when the report runs.
 
 ## Alert configurations
 
-![Alert configurations]({{ site.baseurl }}/img/resource/resource-ss-alert-configurations.png)
+![Alert configurations]({{ site.baseurl }}/img/resource/resource-ss-alert-configurations.jpg)
 
 To create an alert to be sent to your **email** or **cell phone**, click the **Alert Configuration icon** on the 
 mobi.Resource summary page. Then click on the green **Add+** button at the top. 
 
-![Add a new alert]({{ site.baseurl }}/img/resource/resource-ss-add-alert.png)
+![Add a new alert]({{ site.baseurl }}/img/resource/resource-ss-add-alert.jpg)
 
 You can select one of four different types of alerts:
 
@@ -235,7 +235,7 @@ You can select one of four different types of alerts:
 For each alert, create an **alert name**, the **levels** or **drivers to monitor**, **minimum time between alerts**, input an 
 **email address**, and decide if you want a **10 digit phone number** for SMS email message (text message).
 
-![Add a 10 digit phone number for SMS alerts]({{ site.baseurl }}/img/resource/resource-ss-sms-setup.png)
+![Add a 10 digit phone number for SMS alerts]({{ site.baseurl }}/img/resource/resource-ss-sms-setup.jpg)
 
 To set up your 10 digit phone number to received SMS messages, select the **‘?’** icon to view how to set up your number 
 based on your carrier.
