@@ -41,7 +41,7 @@
 }
 
 @include media-query($on-palm) {
-  html.fixed {
+  body.fixed {
     overflow: hidden;
   }
   .page-nav {
