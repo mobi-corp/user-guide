@@ -71,6 +71,7 @@ var pageNavIcon = $("#pageNavIcon");
 var pageNavIconSpan = $("#pageNavIcon span");
 var pageNav = $(".page-nav");
 var pageNavWrapper = $(".page-nav .wrapper");
+var html = $("html");
 
 // --- PAGE NAVIGATION (LIST ICON) ---
 
@@ -80,6 +81,7 @@ function togglePageNav() {
   pageNav.animate({width: 'toggle'});
   pageNavIconSpan.toggleClass("icon-list-bullet icon-x", 'linear');
   pageNavWrapper.toggle();
+  html.toggleClass('fixed');
 }
 
 pageNavIcon.click(togglePageNav);
