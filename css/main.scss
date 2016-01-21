@@ -8,12 +8,12 @@
 }
 
 // Our variables
-$base-font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+$base-font-family: "Proxima Nova", Helvetica, Arial, sans-serif !important;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.8;
 
-$header-font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+$header-font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif !important;
 
 $spacing-unit:     30px;
 
