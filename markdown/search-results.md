@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Search
-permalink: /User-Guide/search-results/
+permalink: /search-results/
 ---
 
 <div id="tipue_search_content"></div>
